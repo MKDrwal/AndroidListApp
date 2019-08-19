@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <CheckBox
+        android:id="@+id/task_done"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/task_name"
+        android:autofillHints="@string/task_title"
+        android:layout_width="352dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:text="Name"
+        android:textSize="20sp"
+        android:inputType="text"/>
+</LinearLayout>
